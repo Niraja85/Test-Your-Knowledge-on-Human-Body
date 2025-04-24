@@ -102,8 +102,43 @@ questions = {
     q9: "a",
     q10: "c"
 }
+
+"""
+Creating a variable so that anything entered 
+apart from the choices returns as invalid.
+"""
+valid_answers = ["a", "b", "c", "d"]
 """
 Creating a for loop to iterate the question and its correct answers.
 """
 for question in questions:
     print(question)
+
+    while True:
+        answer = input("Enter the correct answer a/b/c/d: \n")
+        if answer in valid_answers:
+            if answer == questions[question]:
+                print("Correct Answer. You get 10 points!")
+                score = score + 10
+                print("Your current score is:", score)
+                break
+            else:
+                print("Incorrect Answer!")
+                break
+        else:
+            print("INVALID ANSWER!")
+            continue  
+
+    """
+    The quit variable when chosen, stops the game and final score is displayed.
+    """
+    quit = input("Do you want to quit the quiz? (yes/no):\n")
+    if quit == "yes":
+        print("Quitting Game!")
+        break
+ 
+
+print("The Final Score is:", score)  
+
+
+
