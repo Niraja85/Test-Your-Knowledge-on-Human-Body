@@ -6,30 +6,32 @@ init()
 
 
 """
-A welcome statement for starting the quiz and if the user
-says no, the game quits, and if chooses yes to play the game, 
-questions are displayed.
+Game_start function to give a welcome message for starting the quiz.
 """
-welcome = pyfiglet.figlet_format("Welcome To The Quiz World !")
-print(welcome)
 
-ans = input("Are you ready to play? (yes/no)\n").lower()
+def game_start():
+    welcome = pyfiglet.figlet_format("Welcome To The Quiz World !")
+    print(welcome)
+    
+    ans = input(Fore.GREEN + "Are you ready to play? (yes/no)\n").lower()
+    print(Style.RESET_ALL)
+    if ans != "yes":
+        quit()
+       
+game_start()
 
-if ans != "yes":
-    quit()
-
-score = 0    
+   
 
 """ Creating variables from q1 to q10 which includes questions and choices,
 that will act as key in dictionary named questions.
 """
-
-q1 = """ Because its cells has mitochondria,which of your muscles never tires?
-a. Tongue
-b. Triceps
-c. Heart
-d. Gluteus Maximus
-"""
+def play_game():
+    q1 = """ Because its cells has mitochondria,which of your muscles never tires?
+    a. Tongue
+    b. Triceps
+    c. Heart
+    d. Gluteus Maximus
+    """
 q2 = """ The paper-thin tympanic membrane can be found in what body part?
 a. Ear
 b. Colon
@@ -106,6 +108,7 @@ Creating a variable so that anything entered apart
 from the choices return as invalid.
 """
 valid_answers = ['a', 'b', 'c', 'd']
+score = 0 
 
 """
 Creating a for loop to iterate the question and its correct answers.
