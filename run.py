@@ -1,5 +1,8 @@
 """ Import Python modules """
 import pyfiglet 
+import colorama
+from colorama import Fore, Back, Style, init
+init()
 
 
 """
