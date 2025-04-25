@@ -1,11 +1,13 @@
 """ Import Python modules """
+import pyfiglet 
+from PyInquirer import style_from_dict, prompt, Token, Separator
 
-import colorama
-from colorama import Fore, Back, Style
-import pyfiglet
+style = style_from_dict ({
+    Token.Question : '#FFA500',   #Orange
+    Token.Answer : '#008000',    #Green
+    Token.Instruction : '#fff',  #White
+})
 
-""" Initialise colorama"""
-colorama.init()
 
 """
 A welcome statement for starting the quiz and if the user
@@ -113,6 +115,7 @@ Creating a for loop to iterate the question and its correct answers.
 """
 for question in questions:
     print(question)
+    print("------------------------")
 
     while True:
         answer = input("Enter the correct answer a/b/c/d: \n")
@@ -137,7 +140,6 @@ for question in questions:
         print("Quitting Game!")
         break
  
-
 print("The Final Score is:", score)  
 
 
