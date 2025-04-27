@@ -4,6 +4,9 @@ import colorama
 from colorama import Fore, Back, Style, init
 init()
 
+score = 0
+user_guesses = []
+
 
 def game_start():
     """
@@ -115,6 +118,7 @@ def play_game():
     start = pyfiglet.figlet_format("LET'S BEGIN!!!", font = "digital")
     print(start)
 
+    score = 0
     valid_answers = ['a', 'b', 'c', 'd']
     """
     Creating a variable so that anything entered 
@@ -132,18 +136,39 @@ def play_game():
                 if answer == questions[question]:
                     print(Fore.GREEN + "CORRECT ANSWER. You get 10 points!")
                     print(Style.RESET_ALL)
+                    score = score + 10
+                    print(Fore.CYAN + "Your current score is:", score)
+                    print(Style.RESET_ALL)
                     break
                 else:
                     print(Fore.RED + "INCORRECT ANSWER!!!!")
+                    print(Fore.GREEN + f"Option {questions[question]} is the correct answer.")
                     print(Style.RESET_ALL)
                     break
-        else:
-            print(Fore.RED + "INVALID ANSWER!")
-            continue  
+            else:
+                print(Fore.RED + "INVALID ANSWER!")
+                continue 
+
 
 play_game()
 
 
-def get_score():
-    
+def quit_game():
+    """
+    This function enables to quit the game and then final score is displayed.
+    """
+    game_end = input("Do you want to quit the quiz and see your score? (yes/no):\n")
+    if game_end == "yes":
+        print("QUITTING GAME!!!!")
+        quit()        
+        
+print(f"The Final Score is: {score}")    
+
+
+quit_game()
+
+
+
+     
+
 
