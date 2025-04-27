@@ -5,7 +5,6 @@ from colorama import Fore, Back, Style, init
 init()
 
 score = 0
-user_guesses = []
 
 
 def game_start():
@@ -157,9 +156,11 @@ def quit_game():
     """
     This function enables to quit the game and then final score is displayed.
     """
-    game_end = input("Do you want to quit the quiz and see your score? (yes/no):\n")
+    game_end = input(Fore.GREEN + "Do you want to quit the quiz and see your score? (yes/no):\n")
+    print(Style.RESET_ALL)
+
     if game_end == "yes":
-        print("QUITTING GAME!!!!")
+        print(Fore.CYAN + Style.BRIGHT + "QUITTING GAME!!!!")
         quit()        
         
 print(f"The Final Score is: {score}")    
