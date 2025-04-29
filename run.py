@@ -187,10 +187,14 @@ def quit_game():
             print(Style.RESET_ALL)
                
 
-print(f"The Final Score is: {score}")    
-
-
 quit_game()
+
+
+def get_score():
+    print(f"The Final Score is: {score}") 
+
+
+
 
 
 
