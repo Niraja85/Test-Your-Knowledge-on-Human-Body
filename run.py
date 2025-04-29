@@ -11,14 +11,27 @@ def game_start():
     """
     Game_start function to give a welcome message for starting the quiz.
     """
+    game_start = True
     welcome = pyfiglet.figlet_format("Welcome To The Quiz World !")
     print(welcome)
 
-    ans = input(Fore.GREEN + "ARE YOU READY TO PLAY? (Y/N)\n")
-    print(Style.RESET_ALL)
-    if ans != "Y":
-        quit()
-
+    while game_start:
+        continue_playing = input(Fore.GREEN + "ARE YOU READY TO PLAY? (Y/N)\n")
+        print(Style.RESET_ALL) 
+        
+        if continue_playing.upper() == "Y":
+            print(Fore.BLUE + Style.BRIGHT + "You have decided to play the game. Let's look at the instructions!!\n")
+            print(Style.RESET_ALL)
+            break
+        elif continue_playing.upper() == 'N':
+            print(Fore.RED + Style.BRIGHT + "CLOSING THE GAME!!!!\n")
+            print(Style.RESET_ALL)
+            quit()  
+        else:
+            print(Fore.RED + Style.BRIGHT + "THAT IS NOT A VALID OPTION. PLEASE ENTER Y/N.\n")
+            print(Style.RESET_ALL)
+            continue
+        
 
 game_start()
 
@@ -163,6 +176,7 @@ def quit_game():
         print(Fore.CYAN + Style.BRIGHT + "QUITTING GAME!!!!")
         quit()        
         
+
 print(f"The Final Score is: {score}")    
 
 
