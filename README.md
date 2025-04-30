@@ -30,7 +30,17 @@ As a user I want to experience learning and score myself so that I can rate myse
 IMPLEMENTATION
 
 * The quiz is in the form of multiple choice questions.
-* 
+* Each correct response is given 10 points.
+* After every incorrect response, the correct answer is also displayed.
+* Any invalid selection displays the error message.
+
+![MCQ](docs/readme_images/MCQ.png)
+
+![Correct-answer](docs/readme_images/Correct.png)
+
+![Incorrect-answer](docs/readme_images/Incorrect.png)
+
+![Invalid-answer](docs/readme_images/Invalid.png)
 
 
 
