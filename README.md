@@ -73,4 +73,20 @@ Error handling was implemented throughout the application withthe use of while T
 * Scoring can be made more challenging by including negative scoring for incorrect responses.
 * The visual representation can be made more fun and colorful.
 
+## Technologies Used:
+
+* Python was the main language used to build the application.
+    * Python packages used:
+    - Colorama - used to make the text fot instructions, questions, and important messages displayed in a different color to    make visually appealing.
+    - Pyfiglet - used to change the font of the welcome message.
+* TinyPNG 
+[Tinypng](https://tinypng.com/) was used to convert the images to png format.
+
+
+## Testing    
+
+### Functional testing
+
+### PEP8 Validation
+
 
