@@ -81,6 +81,8 @@ Error handling was implemented throughout the application withthe use of while T
     - Pyfiglet - used to change the font of the welcome message.
 * TinyPNG 
 [Tinypng](https://tinypng.com/) was used to convert the images to png format.
+* Lucid Chart
+    * [Lucid_Chart](https://lucid.app/user/208362927#/subscriptionLevel/chart/levelType) was used to make the wireframes of the quiz.
 
 
 ## Testing    
