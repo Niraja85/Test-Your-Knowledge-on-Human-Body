@@ -31,10 +31,10 @@ IMPLEMENTATION
 
 * The quiz is in the form of multiple choice questions.
 * Each correct response is given 10 points.
-* After every incorrect response, the correct answer is also displayed.
+* After every incorrect response, the correct answer is also displayed, and the score increases by 10 points.
 * Any invalid selection displays the error message.
 
-![MCQ](docs/readme_images/MCQ.png)
+![MCQ](docs/readme_images/mcq_qusetions.png)
 
 ![Correct-answer](docs/readme_images/Correct.png)
 
@@ -42,8 +42,19 @@ IMPLEMENTATION
 
 ![Invalid-answer](docs/readme_images/Invalid.png)
 
+## User Story 3:
+As a user I would like to see my final score so that I can rate my knowldege on the quiz questions.
 
+IMPLEMENTATION:
 
+## User story 4:
+As a user I would like to quit the quiz, or be able to play again so that i can stop or start the game once again to improve my scores.
 
+IMPLEMENTATION:
+
+* At the end of 10th question a message asking whether the user want to quit the quiz is displayed.
+* If user chooses yes, then 'quitting game' message is displayed and the game ends.
+* If the user chooses no, then 'playing again' message is displayed and the quiz begins again starting from the 1st question.
+* If there are any errors entered, it is taken into account and 'invalid choice, please enter yes/no' is displayed.
 
 

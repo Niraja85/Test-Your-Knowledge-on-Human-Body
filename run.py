@@ -170,7 +170,7 @@ def quit_game():
     This function enables to quit the game and then final score is displayed.
     """
     while True:
-        game_end = input(Fore.GREEN + "Do you want to quit the quiz and see your score? (yes/no):\n")
+        game_end = input(Fore.GREEN + "Do you want to quit the quiz? (yes/no):\n")
         print(Style.RESET_ALL)
         
         if game_end == "yes":
