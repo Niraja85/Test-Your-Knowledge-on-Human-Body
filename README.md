@@ -57,4 +57,10 @@ IMPLEMENTATION:
 * If the user chooses no, then 'playing again' message is displayed and the quiz begins again starting from the 1st question.
 * If there are any errors entered, it is taken into account and 'invalid choice, please enter yes/no' is displayed.
 
+![Quitting-quiz](docs/readme_images/quit.png)
+
+![Play_again](docs/readme_images/Play_again.png)
+
+![Invalid_choice](docs/readme_images/Invalid_choice.png)
+
 
