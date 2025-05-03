@@ -144,9 +144,6 @@ Error handling was implemented throughout the application withthe use of while T
     - Expected : 'Invalid Choice' and the message to quit the quiz is asked again.
     - Actual : As expected, 'invalid choice' and the message to quit the quiz is asked again.
 
-
-
-
 ### PEP8 Validation
 
 
