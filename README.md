@@ -1,11 +1,34 @@
 # Test Your Knowledge on Human Body
 
 ## Table of Contents:
+* [Introduction](#introduction)
+
+    * [Wireframe and User stories](#wireframe-and-user-stories)
+        * [Wireframe](#wireframe)
+        * [Goals](#goals)
+        * [User story 1](#user-story-1)
+        * [User story 2](#user-story-2)
+        * [User story 3](#user-story-3)
+        * [User story 4](#user-story-4)
+    * [Error Handling](#error-handling)
+    * [Features left to be implemented](#features-left-to-be-implemented)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+
+    * [Functional Testing](#functional-testing)
+    * [PEP8 Validation](#pep8-validation)
+    * [Bugs and Fixes](#bugs-and-fixes)
+* [Deployment](#deployment)
+    * [Version Control](#version-control)
+    * [Heroku Deployment](#heroku-deployment)
+* [Credits](#credits)
 
 ## Introduction:
 Test your knowledge on human body is a CLI(Command Line Interface) quiz game. It is about fun facts about the human body represented in the form of quiz questions. There are 10 multiple-choice questions and the user has to enter the correct choice in order to increase their score.
 
-## User Stories and Wireframes
+## Wireframe and User Stories:
+
+### Wireframe
 
 ### Goals
 The aim of this simple quiz CLI game is to be able to improve ones's general knowledge and at the same time enjoy it in the form of a quiz game.
@@ -182,4 +205,9 @@ The below steps were followed to deploy this project to Heroku:
 
 ## CREDITS
 
+* Two YouTube tutorials on quiz helped me in making this project.
+    * [YouTube Tutorial 1](https://www.youtube.com/watch?v=-I96VIIiIXk)
+    * [YouTube Tutorial 2](https://www.youtube.com/watch?v=zehwgTB0vV8)
+* W3C Tutorials for writing python functions and Code institute study materials were used throughout the project.
+* I would like to extend my thanks to my mentor Gareth Mc.Girr for his constant support and suggestions to improve my project.
 

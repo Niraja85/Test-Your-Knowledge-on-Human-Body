@@ -28,8 +28,8 @@ def game_start():
             print(Style.RESET_ALL)
             quit()
         else:
-            print(Fore.RED + Style.BRIGHT + """THAT IS NOT A VALID OPTION.
-PLEASE ENTER Y/N.\n""")
+            print(Fore.RED + Style.BRIGHT +
+                  "THAT IS NOT A VALID OPTION.PLEASE ENTER Y/N.\n")
             print(Style.RESET_ALL)
             continue
 
