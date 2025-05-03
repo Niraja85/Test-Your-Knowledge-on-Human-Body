@@ -10,7 +10,7 @@ Test your knowledge on human body is a CLI(Command Line Interface) quiz game. It
 ### Goals
 The aim of this simple quiz CLI game is to be able to improve ones's general knowledge and at the same time enjoy it in the form of a quiz game.
 
-## User Story 1: 
+## User Story 1:
 As a user I want to build an app using python for a fun quiz game on human body so that I can check my general knowldege.
 
 IMPLEMENTATION
@@ -21,7 +21,7 @@ IMPLEMENTATION
     * Instructiom is  displayed asking whether to begin the game.
     * The instructions to play the game are displayed.
 
-![Welcome](docs/readme_images/welcome-1.png) 
+![Welcome](docs/readme_images/welcome-1.png)
 ![Instructions](docs/readme_images/Instructions.png)
 
 ## User story 2:
@@ -79,13 +79,13 @@ Error handling was implemented throughout the application withthe use of while T
     * Python packages used:
     - Colorama - used to make the text fot instructions, questions, and important messages displayed in a different color to    make visually appealing.
     - Pyfiglet - used to change the font of the welcome message.
-* TinyPNG 
+* TinyPNG
 [Tinypng](https://tinypng.com/) was used to convert the images to png format.
 * Lucid Chart
     * [Lucid_Chart](https://lucid.app/user/208362927#/subscriptionLevel/chart/levelType) was used to make the wireframes of the quiz.
 
 
-## Testing    
+## Testing
 
 ### Functional testing
 
@@ -121,7 +121,7 @@ Error handling was implemented throughout the application withthe use of while T
 
 * Step Seven :
     *   Final score is displayed.
-    - Expected : 
+    - Expected :
     - Actual :
 
 * Step Eight :
@@ -137,7 +137,7 @@ Error handling was implemented throughout the application withthe use of while T
 * Step Ten :
     * If answer to quit the quiz is 'no', then game begins again and 'Playing again' message is displayed.
     - Expected : Playing again message is displayed and the game begins.
-    - Actual : As expected, playing again message is displayed and the game begins.   
+    - Actual : As expected, playing again message is displayed and the game begins.
 
 * Step Eleven :
     * If any invalid error message is entered, 'invalid choice' message is displayed and asked to enter either 'yes/no'.
@@ -145,5 +145,11 @@ Error handling was implemented throughout the application withthe use of while T
     - Actual : As expected, 'invalid choice' and the message to quit the quiz is asked again.
 
 ### PEP8 Validation
+
+All python code was ran through pep8ci.herokuapp.com validator and any warnings or errors were fixed. Code then validated successfully.
+
+![PEP 8](docs/readme_images/pep8%202.png)
+
+### Bugs and Fixes
 
 
