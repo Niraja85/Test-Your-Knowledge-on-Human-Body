@@ -30,6 +30,10 @@ Test your knowledge on human body is a CLI(Command Line Interface) quiz game. It
 
 ### Wireframe
 
+* The wireframe for the project is displayed in the form of a simple flow-chart. It gives an overview of how the quiz game operates and the coding for this project was planned.
+
+![Wireframe](docs/readme_images/Wireframe.png)
+
 ### Goals
 The aim of this simple quiz CLI game is to be able to improve ones's general knowledge and at the same time enjoy it in the form of a quiz game.
 

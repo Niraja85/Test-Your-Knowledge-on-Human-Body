@@ -15,21 +15,22 @@ def game_start():
     print(welcome)
 
     while game_start:
-        continue_playing = input(Fore.GREEN + "ARE YOU READY TO PLAY? (Y/N)\n")
+        continue_playing = input(Fore.GREEN +
+                                 "ARE YOU READY TO PLAY? (yes/no)\n")
         print(Style.RESET_ALL)
 
-        if continue_playing.upper() == "Y":
+        if continue_playing == "yes":
             print(Fore.BLUE + Style.BRIGHT +
                   "GREAT!!! Let's look at the instructions!!\n")
             print(Style.RESET_ALL)
             break
-        elif continue_playing.upper() == 'N':
+        elif continue_playing.upper() == "no":
             print(Fore.RED + Style.BRIGHT + "CLOSING THE GAME!!!!\n")
             print(Style.RESET_ALL)
             quit()
         else:
             print(Fore.RED + Style.BRIGHT +
-                  "THAT IS NOT A VALID OPTION.PLEASE ENTER Y/N.\n")
+                  "THAT IS NOT A VALID OPTION.PLEASE ENTER yes/no.\n")
             print(Style.RESET_ALL)
             continue
 
