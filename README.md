@@ -75,6 +75,10 @@ As a user I would like to see my final score so that I can rate my knowldege on 
 
 IMPLEMENTATION:
 
+* At the end of the 10th question, final score obtained by the user is displayed.
+
+![Final-score](docs/readme_images/Final-score.png)
+
 ## User story 4:
 As a user I would like to quit the quiz, or be able to play again so that i can stop or start the game once again to improve my scores.
 
@@ -161,9 +165,11 @@ Error handling was implemented throughout the application withthe use of while T
 ![Invalid-answer](docs/readme_images/Invalid-MCQ.png)
 
 * Step Seven :
-    *   Final score is displayed.
-    - Expected :
-    - Actual :
+    * Final score is displayed at the end of last question.
+    - Expected : Final score obtained by the user is displayed.
+    - Actual : As expected, final score is displayed.
+
+![Final-score](docs/readme_images/Final-score.png)
 
 * Step Eight :
      *  At the end of 10th question, a question is displayed whether user wants to quit the quiz.
