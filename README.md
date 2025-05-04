@@ -48,8 +48,8 @@ IMPLEMENTATION
     * Instructiom is  displayed asking whether to begin the game.
     * The instructions to play the game are displayed.
 
-![Welcome](docs/readme_images/welcome-1.png)
-![Instructions](docs/readme_images/Instructions.png)
+![Welcome](docs/readme_images/welcome.png)
+![Instructions](docs/readme_images/instructions.png)
 
 ## User story 2:
 As a user I want to experience learning and score myself so that I can rate myself and an app to do so is available.
@@ -65,7 +65,7 @@ IMPLEMENTATION
 
 ![Correct-answer](docs/readme_images/Correct.png)
 
-![Incorrect-answer](docs/readme_images/Incorrect.png)
+![Incorrect-answer](docs/readme_images/Incorrect-answer.png)
 
 ![Invalid-answer](docs/readme_images/Invalid.png)
 
