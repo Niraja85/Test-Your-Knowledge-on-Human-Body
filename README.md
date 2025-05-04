@@ -49,6 +49,7 @@ IMPLEMENTATION
     * The instructions to play the game are displayed.
 
 ![Welcome](docs/readme_images/welcome.png)
+
 ![Instructions](docs/readme_images/Ins-updated.png)
 
 ## User story 2:

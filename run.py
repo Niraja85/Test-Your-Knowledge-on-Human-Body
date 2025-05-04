@@ -169,6 +169,9 @@ def play_game():
                 print(Fore.RED + "INVALID ANSWER!")
                 continue
 
+    print(Fore.CYAN + Style.BRIGHT + "THE FINAL SCORE IS:  ", score)
+    print(Style.RESET_ALL)
+
 
 play_game()
 
@@ -178,7 +181,7 @@ def quit_game():
     This function enables to quit the game and then final score is displayed.
     """
     while True:
-        game_end = input(Fore.GREEN +
+        game_end = input(Fore.GREEN + Style.BRIGHT +
                          "Do you want to quit the quiz? (yes/no):\n")
         print(Style.RESET_ALL)
 
@@ -194,11 +197,7 @@ def quit_game():
         else:
             print(Fore.RED + Style.BRIGHT +
                   "INAVALID CHOICE. PLEASE ENTER yes/no.\n")
-            print(Style.RESET_ALL)
+            print(Style.RESET_ALL + '\n')
 
 
 quit_game()
-
-
-def get_score():
-    print(f"The Final Score is: {score}")
