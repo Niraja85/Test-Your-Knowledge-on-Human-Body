@@ -24,7 +24,7 @@ def game_start():
                   "GREAT!!! Let's look at the instructions!!\n")
             print(Style.RESET_ALL)
             break
-        elif continue_playing.upper() == "no":
+        elif continue_playing == "no":
             print(Fore.RED + Style.BRIGHT + "CLOSING THE GAME!!!!\n")
             print(Style.RESET_ALL)
             quit()

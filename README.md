@@ -118,33 +118,46 @@ Error handling was implemented throughout the application withthe use of while T
 
 * Step One:
     * When the program is run, a welcome message is displayed and a question to start the quiz is displayed.
-    - Expected: Correct options Y/N are displayed.
+    - Expected: Correct options yes/no are displayed.
     - Actual: Correct options are displayed.
 
+![Welcome-message](docs/readme_images/welcome.png)
+
 * Step Two:
-    * If Y is selected, game instructions are displayed and the MCQ (Multiple Choice Questions) are displayed.
+    * If 'yes' is selected, game instructions are displayed and the MCQ (Multiple Choice Questions) are displayed.
     - Expected : Quiz instructions are displayed and the questions are also displayed.
     - Actual : As expected quiz instructions and the questions are displayed.
 
+![Instructions-and-MCQ](docs/readme_images/Ins-and-MCQ.png)
+
 * Step Three:
-    * If N is selected, a message is displayed that the game is closing.
+    * If 'no' is selected, a message is displayed that the game is closing.
     - Expected : Closing game message should be displayed.
     - Actual : As expected, closing game message is displayed.
 
+![Game-start-no](docs/readme_images/game-start-no.png)
+
 * Step Four :
-     * If anything else is entered, for example, 'yes', 'no', 'y', 'n' etc invalid error message is displayed.
+     * If anything else is entered, for example, 'Y', 'N', 'y', 'n' etc invalid error message is displayed.
      - Expected : A message displaying to enter either Y/N as valid option is displayed.
      - Actual : As expected, invalid error message is displayed.
+
+![Invalid-game-start](docs/readme_images/Invalid-game-start.png)
 
 * Step Five :
     * Questions are displayed starting from question number 1 with four choices (a,b,c,d). Correct answer to be entered.
     - Expected : If correct answer is entered, current score with 10 points increment is displayed, if wrong answer is entered, then correct answer choice is also displayed.
     - Actual : As expected, current score is added with every correct answer entered and correct answer choice is displayed if wrong answer is entered and no score increment.
 
+![Correct-answer](docs/readme_images/MCQ-Correct.png)
+![Incorrect-answer](docs/readme_images/Incorrect-MCQ.png)
+
 * Step Six :
     * If any invalid choice is entered for example 'C', 'A' etc, invalid error message is displayed, and again to enter the correct answer to be entered is displayed.
     - Expected : Error message is displayed.
     - Actual: Error message is displayed.
+
+![Invalid-answer](docs/readme_images/Invalid-MCQ.png)
 
 * Step Seven :
     *   Final score is displayed.
@@ -156,20 +169,28 @@ Error handling was implemented throughout the application withthe use of while T
      - Expected : A message is displayed asking whether user wants to quit the quiz.
      - Actual : The expected message is displayed.
 
+![End-question](docs/readme_images/Question-end-quiz.png)
+
 * Step Nine :
     * If answer to quit the quiz is 'yes', then game ends and 'quitting game' message is displayed.
     - Expected : Game ends and quitting game is displayed.
     - Actaul : As expected, game ends and quitting game message is displayed.
+
+![Quit-yes](docs/readme_images/quit.png)
 
 * Step Ten :
     * If answer to quit the quiz is 'no', then game begins again and 'Playing again' message is displayed.
     - Expected : Playing again message is displayed and the game begins.
     - Actual : As expected, playing again message is displayed and the game begins.
 
+![Quit-no](docs/readme_images/Play_again.png)
+
 * Step Eleven :
     * If any invalid error message is entered, 'invalid choice' message is displayed and asked to enter either 'yes/no'.
     - Expected : 'Invalid Choice' and the message to quit the quiz is asked again.
     - Actual : As expected, 'invalid choice' and the message to quit the quiz is asked again.
+
+![Quit-Invalid](docs/readme_images/Invalid_choice.png)
 
 ### PEP8 Validation
 
