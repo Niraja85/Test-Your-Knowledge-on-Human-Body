@@ -49,7 +49,7 @@ IMPLEMENTATION
     * The instructions to play the game are displayed.
 
 ![Welcome](docs/readme_images/welcome.png)
-![Instructions](docs/readme_images/instructions.png)
+![Instructions](docs/readme_images/Ins-updated.png)
 
 ## User story 2:
 As a user I want to experience learning and score myself so that I can rate myself and an app to do so is available.
