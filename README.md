@@ -208,7 +208,7 @@ All python code was ran through pep8ci.herokuapp.com validator and any warnings 
 ### Bugs and Fixes
 
 * Removed trailing whitespaces and length of lines whose length were greater than 72 characters had to be reduced or moved to the next line to pass the validation.
-* In game start and quit game, even if any thing else was entered apart from Y/N or yes/no respectively, the game began or ended, so had to write the codes to include messages for invalid choice and quitting game options.
+* In game start and quit game, even if any thing else was entered apart from yes/no, the game began or ended, so had to write the codes to include messages for invalid choice and quitting game options.
 * Also the final score at the end of the game was not displayed and had to rewrite functions to include it.
 
 ## Deployment
@@ -242,7 +242,3 @@ The below steps were followed to deploy this project to Heroku:
     * [YouTube Tutorial 2](https://www.youtube.com/watch?v=zehwgTB0vV8)
 * W3C Tutorials for writing python functions and Code institute study materials were used throughout the project.
 * I would like to extend my thanks to my mentor Gareth Mc.Girr for his constant support and suggestions to improve my project.
-
-
-
-[def]: #wireframe

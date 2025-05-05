@@ -37,7 +37,6 @@ def game_start():
 
 game_start()
 
-
 """ Creating variables from q1 to q10 which includes questions and choices,
 that will act as key in dictionary named questions.
 """
