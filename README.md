@@ -104,6 +104,7 @@ Error handling was implemented throughout the application withthe use of while T
 * In future, an explanation about the correct answer can be added providing more information on the question topic.
 * Scoring can be made more challenging by including negative scoring for incorrect responses.
 * The visual representation can be made more fun and colorful.
+* Every time a player chooses to play the quiz again, new set of questions can be added.
 
 ## Technologies Used:
 
