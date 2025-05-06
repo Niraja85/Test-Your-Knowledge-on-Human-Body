@@ -204,7 +204,7 @@ Error handling was implemented throughout the application withthe use of while T
 
 All python code was ran through pep8ci.herokuapp.com validator and any warnings or errors were fixed. Code then validated successfully.
 
-![PEP 8](docs/readme_images/pep8%202.png)
+![PEP 8](docs/readme_images/Pep8-validation.png)
 
 ### Bugs and Fixes
 
